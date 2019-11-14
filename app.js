@@ -11,7 +11,7 @@ app.get('/', function (req, res) {
   res.send("Sample Code for RESTful API");
 })
 
-app.post('/testRecv', function (req, res) {
+app.post('/getpm', function (req, res) {
 
   //timestamp
   var now = new Date();
